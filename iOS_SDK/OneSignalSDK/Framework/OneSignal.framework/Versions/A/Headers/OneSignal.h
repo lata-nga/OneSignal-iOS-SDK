@@ -112,6 +112,7 @@ typedef NS_ENUM(NSUInteger, OSNotificationActionType)  {
 @property(readonly, nullable)NSString* body;
 
 /* Web address to launch within the app via a WKWebView */
+// This is the problem param which we need to handle
 @property(readonly, nullable)NSString* launchURL;
 
 /* Additional key value properties set within the payload */
